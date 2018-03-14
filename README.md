@@ -12,4 +12,4 @@ Codepen link : https://codepen.io/Daniel-Codepen/full/bvVaRN/
 # Javascript Calculator
 Codepen link : https://codepen.io/Daniel-Codepen/full/xWVXmM/
 <br>
-![Javascript Calculator Screenshot]Javascript-Calculator/screenshot.png?raw=true "Optional Title")
+![Javascript-Calculator Screenshot](Javascript-Calculator/screenshot.png?raw=true "Optional Title")
