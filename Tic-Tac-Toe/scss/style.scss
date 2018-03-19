@@ -1,0 +1,111 @@
+body {
+  font-size: 0px;
+  background: #f2f9fe; /* Old browsers */
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #f2f9fe 0%,
+    #d6f0fd 100%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #f2f9fe 0%,
+    #d6f0fd 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    ellipse at center,
+    #f2f9fe 0%,
+    #d6f0fd 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#f2f9fe",
+      endColorstr="#d6f0fd",
+      GradientType=1
+    ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.game-body {
+  width: 500px;
+  height: 450px;
+  position: relative;
+  margin: 5% auto;
+
+  -webkit-box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 51px 0px rgba(0, 0, 0, 0.75);
+  //font-size:0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 0px;
+  text-align: center;
+}
+
+li {
+  position: relative;
+  display: inline;
+  font-size: 130px;
+  padding: 0px;
+  margin: 0px;
+  width: 33.33%;
+  height: 150px;
+  background: #19293a;
+  float: left;
+  border: 1px solid white;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.UI {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-box;
+}
+
+
+
+#XO{
+ // position:absolute;
+  text-align:center;
+width:100%;
+
+  z-index:99;
+  margin-top:50px;
+  padding:0px;
+  
+}
+
+#X{
+  
+  padding:20px;
+      background: #19293a;
+    color: white;
+    border: 1px solid white;
+  margin-right:5px;
+}
+#O{
+  margin-left:5px;
+padding:20px;
+      background: #19293a;
+    color: white;
+    border: 1px solid white;
+}
+
+h1{
+  font-size:50px;
+  font-family:"Open Sans", sans-serif;
+}
+
+.hide{
+  display:none;
+}
